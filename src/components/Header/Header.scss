@@ -1,0 +1,140 @@
+.chat-dropdown a {
+    line-height: 1;
+    padding: 5px 0;
+    text-decoration: underline;
+    color: rgb(36, 84, 241) !important;
+}
+
+.chat-img{
+    width:20px;
+    height:20px;
+    margin-right: 20px;
+}
+
+.notif-img{
+    width:20px;
+    height:20px;
+    margin-right: 20px;
+}
+
+.profile-img{
+    width:20px;
+    height:20px;
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+}
+.contact-section{
+    display: flex;
+    margin-right: 20px;
+}
+.contact-icons{
+    margin-right: 30px;
+}
+.rentDaap-Img{
+    width: 50px;
+    transition: .5s;
+}
+.drp-txt-profile{
+    color: #000000;
+}
+.drp-txt-profile:hover{
+    color:  #a7a7a7;
+    text-decoration: none !important;
+}
+
+.profile-dropdown{
+    position: absolute;
+    background-color: #ffffff;
+    padding: 10px;
+    right: 19%;
+    top: 80px;
+    z-index: 1;
+}
+
+
+nav{
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100px;
+ box-sizing: border-box;
+ transition: .5s;
+}
+nav .rentDaap-header-logo{
+    float: left;
+}
+
+nav ul{
+   margin: 0;
+   padding: 0;
+   float: right;
+   display: flex;
+}
+
+
+ nav ul li{
+     list-style: none;
+ }
+
+ nav ul li a{
+     color: #ffffff;
+     line-height: 80px;
+     padding: 5px 10px;
+     text-decoration: none;
+     text-transform: uppercase;
+     transition: .5s;
+ }
+ .catgry-text{
+     color: #ffffff;
+     cursor: pointer;
+ }
+
+ .catgry-texttwo{
+    color: #ffffff;
+    cursor: pointer;
+ }
+
+ .catgry-text.black{
+     color: #000000;
+     cursor: pointer;
+ }
+
+ nav.black{
+     background-color: #ffffff !important   ;
+     color: #000000;
+     z-index: 100000;
+     border-bottom:2px solid #86868626;
+ }
+ 
+ nav.black ul li a{
+     color: #000000 !important;
+ }
+
+.collapse.navbar-collapse{
+//   margin-left: 42% ;
+}
+ @media (max-width: 768px) {
+    nav{
+        padding: 10px 32px;
+    }
+    .navbar-toggler{
+        margin-left: 20%;
+    }
+    .header-listItem{
+    background: #000000;
+    z-index: 9;
+    position: relative;
+    left: -70px;
+    display: block;
+    }
+ }
+
+
+
+ .chat-dropdown {
+   line-height: 1.6;
+   position: absolute;    
+   border-radius: 10px;
+}

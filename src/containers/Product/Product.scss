@@ -1,0 +1,71 @@
+.listing-fav{
+    margin-top: 32px;
+    margin-left: 10px;
+    border: none;
+    background-color: #FF5D22;
+    color: #ffffff;
+    width: 140px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.listing-rent-now{
+    border: none;
+    background-color: #FF5D22;
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.listing-booked-dates{
+    margin-left: 14px;
+    border: none;
+    background-color: #189114;
+    color: #ffffff;
+    width: 175px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.listing-rent-small{
+    border: none;
+    background-color: #FF5D22;
+    color: #ffffff;
+    width: 120px !important;
+    height: 30px !important;
+    border-radius: 4px;
+}
+
+.prd-flex{
+    display: flex;
+    width: 100%;
+}
+.alert-product {
+    font-size: 14px;
+    padding: 6px;
+    margin-top: .9rem;
+}
+.alert-msg-product {
+    margin-top: -8px;
+    line-height: 1.4;
+}
+
+.row.my-product .carousel .thumbs-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.row.my-product .carousel .thumbs-wrapper ul li {
+  height: 60px !important;
+}
+.row.my-product .carousel .thumbs-wrapper ul li img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.carousel .slide img {
+    object-fit: contain;
+}
+.title-heart{
+  cursor:pointer;  
+}

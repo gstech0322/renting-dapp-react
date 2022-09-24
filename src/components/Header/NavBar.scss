@@ -1,0 +1,147 @@
+.chat-dropdown{
+  position: absolute;
+  z-index: 1000;  
+}
+
+.header-menu a{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    color:#000000 !important;
+    cursor: pointer;
+}
+.navbarborder-style{
+border-bottom: 1px solid #A7A7A7;
+margin-bottom: 5%;
+border-radius: 2px;
+box-shadow: 0px 1px 10px #999;
+}
+.header-container{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .5s;
+   
+}
+.small-nav-margin{
+    margin-top: 25px;
+}
+.category-text{
+    font-size: 18px;
+}
+.rent-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.rent-btn{
+    height: 33px;
+    border: 1px solid #000000;
+    padding: 3px 14px 3px 14px;
+    background-color:#000000;
+}
+.rent-btn a:hover{
+    color: #ffffff !important;
+}
+.chat-img{
+    width:20px;
+    height:20px;
+    margin-right: 35px;
+}
+
+.notif-img{
+    width:20px;
+    height:20px;
+    margin-right: 35px;
+}
+
+.profile-img{
+    width:20px;
+    height:20px;
+    margin-right: 35px;
+}
+.contact-section{
+    display: flex;
+    margin-right: 20px;
+    margin-top: 26px;
+}
+.contact-icons{
+    margin-right: 30px;
+}
+.rentDaap-Img{
+    width: 50px;
+    transition: .5s;
+    margin-left: 0px;
+}
+
+.header-menu{
+  margin-left: 15%;
+  margin-top: 15px;
+}
+
+
+.nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #A7A7A7;
+    padding: 8px 0px;
+    margin: 0px 9px;
+    display: inline-block;
+    position: relative;
+    //  
+  }
+  
+  .nav-link:hover {
+    opacity: 1;
+  }
+  
+  .nav-link::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #A7A7A7;
+  }
+  
+  .nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+  }
+  
+  .nav-link-ltr:hover::before {
+    width: 100%;
+  }
+  .navbarborder-style{
+      .collapse.navbar-collapse{
+        // margin-left: 35%;
+      }
+  }
+
+  ul.megamenu-box {
+
+    display: block;
+    width: 100%;
+}
+ .megamenu {
+    min-width: 610px;
+ } 
+   ul.megamenu-box li {
+    list-style: none;
+    display: contents !important;
+    width: 100%;
+}
+ul.megamenu-box li a {
+    display: flow-root !important;
+    line-height: 20px!important;
+    font-size: 13px;
+}
+.col-megamenu  h6{
+    margin-left: 11px;
+    color: #ff5d22;
+    font-weight: 600;
+}

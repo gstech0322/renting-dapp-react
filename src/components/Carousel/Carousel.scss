@@ -1,0 +1,49 @@
+.slider-item-main{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.car-slider-img{
+    width: 100%;
+    height: 215px;
+    object-fit: cover;
+}
+.react-multi-carousel-item.react-multi-carousel-item--active{
+    margin-right:15px;
+}
+
+.card-title{
+font-size: 18px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+color: #ff5d22;
+}
+.card-body.text-dark{
+    text-align: justify;
+    font-size: 15px;
+}
+.btn.btn-outline{
+    color:#FF5D22;
+    border: 1px solid #FF5D22;
+}
+.img-responsive{
+    width: '100%';
+    height: 150px;
+}
+@media (max-width: 768px) {
+    .react-multi-carousel-list{
+        overflow: visible;
+    }
+    .card.text-center{
+        // width: 50%;
+    }
+    .react-multi-carousel-item.react-multi-carousel-item--active{
+        margin-right: 10px;
+        // width: 587px !important;
+    }
+    .car-slider-img{
+        width: 100%;
+        
+    }
+}

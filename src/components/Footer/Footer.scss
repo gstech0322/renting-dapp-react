@@ -1,0 +1,109 @@
+
+.subscribe-container{
+ float: right;
+}
+.rentDaap-help{
+    // display: flex;
+    // justify-content: space-between;
+    margin-top: 15px;
+}
+.rentDaap-help ul li {
+    list-style: none;
+}
+.rentDaap-help ul li a{
+    color: #ffffff !important;
+    list-style: none;
+    font-size: 15px;
+}
+.rentDaap-help ul li a:hover{
+    color: #FF5D22 !important;
+    cursor: pointer;
+}
+.footer-link{
+    color: #ffffff !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-link:hover{
+    color: #FF5D22 !important;
+    cursor: pointer;
+}
+.Footer-container{
+ padding-top: 3%;
+}
+
+.subscribe-rent-btn{
+    border-radius: 8px;
+    font-weight: 500;
+    width: 235px;
+    text-decoration: none;
+    height: 45px;
+    border: none;
+    text-align: center;
+    background-color: #FF5D22;
+    color: #fff;
+}
+.subscribe-field{
+    padding-left: 10px;
+    width: 235px;
+    height: 45px;
+    border-radius: 8px;
+}
+.subscribe-btn-container{
+    margin-top: 20px;
+}
+.subscribe-detail{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+.other-footer-txt{
+    color: #ffffff;
+}
+.social-links{
+//  display: flex;
+//  margin-left: -12px;
+}
+.footer-bgd {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/Images/pebble.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto !important;
+    background-size: cover;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+}
+.social-Img{
+    width: 22px;
+    height: 22px;
+    margin: 20px 5px 10px 5px;
+}
+@media (max-width: 768px) {
+    .rentDaap-Img{
+      margin-left: 0px !important;
+      width: 28px !important;
+    }
+    .rentDaap-help ul li{
+        font-size: 12px !important;
+    }
+    .subscribe-container{
+        display: none;
+    }
+    .subscribe-detail{
+        font-size: 14px !important;
+    }
+    .subscribe-field{
+        width: 190px !important;
+        height: 39px !important;
+    }
+    .subscribe-rent-btn{
+        width: 190px !important;
+        height: 39px !important;
+    }
+}
+.copyright{
+    border-top:1px solid #eeeeee5c;
+    padding: 15px 0;
+    color: #fff;;
+}

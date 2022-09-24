@@ -1,0 +1,57 @@
+.ChatPaget-wrapper-container{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    margin-bottom: 10%;
+}
+
+.chat-user-img{
+ width: 50px;
+ height: 50px;
+}
+
+.chat-select-txt{
+    text-align: center;
+}
+
+.empty-chat-img{
+    width: 45%;
+    margin-left: 26%;
+    height: 280px;
+}
+
+.chat-first-container{
+    border-right: 1px solid;
+}
+
+.single-chats{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 10px;
+    border-bottom: 1px solid #000000;
+}
+
+.chat-search-field{
+    width: 145px;
+}
+
+.chat-top-style{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    border-bottom: 1px solid
+}
+.Owner-title{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.customer-text-style{
+    margin-left: 10px;
+}
+
+.chat-search-icon{
+    position:relative;
+    left:-25px;
+}

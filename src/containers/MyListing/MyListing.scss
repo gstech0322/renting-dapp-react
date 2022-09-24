@@ -1,0 +1,98 @@
+.myListing-wrapper-container{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+   margin-bottom: 30px;
+}
+
+.listing-main-img{
+    width: 82%;
+    height: 200px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.listing-small-img{
+    width: 25%;
+    margin-right: 14px;
+    height: 80px;
+    object-fit: cover;
+}
+.listing-head{
+    color: #FF5D22;
+}
+.listing-txt-modal{
+    text-align: center;
+}
+.rentDaap-Img-modal{
+    width: 40px;
+    height: 50px;
+}
+.myList-amount{
+    color: #FF5D22;
+}
+.desc-head{
+    color: #FF5D22;
+}
+
+.desc-para{
+    color: #757575;
+    //height: 137px;
+}
+
+.listing-edit{
+    border: none;
+    background-color: #FF5D22;
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.listing-delete{
+    margin-left: 20px;
+    border: none;
+    background-color: #FF5D22;
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.section2-listing{
+    margin-left: -60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section1-listing{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row.listing-border{
+border: 1px solid #a7a7a7;
+border-radius: 10px;
+}
+.delete-btn.btn.btn-secondary{
+    background-color: #8f8f8f;
+    height: 34px;
+    width: 60px;
+    border-radius: 0px;
+}
+.delete-btn.btn.btn-primary{
+    background-color: #8f8f8f;
+    height: 34px;
+    width: 60px;
+    border-radius: 0px;
+}
+
+.delete-footer{
+    display: flex;
+    justify-content: center !important;
+}
+.row.listing-border{
+ margin-bottom: 20px;
+}
+.section1-listing img {
+    border: 1px solid #c6c1c1;
+    border-radius: 9px;
+    padding: 5px;
+}

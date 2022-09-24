@@ -1,0 +1,34 @@
+.comin-img{
+    width: 70%;
+    height: 70%;
+    margin-left:15%;
+}
+.comin-soon-container{
+    margin: 0 auto;
+    width: 80%;
+}
+.comimg-txt{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.dwnld-main{
+    display: flex;
+    justify-content: center;
+}
+.coming-home{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #0179fc;
+    width: 180px;
+    height: 40px;
+    background-image: linear-gradient(to right,#0179fc, #01bdfd);
+    color: #ffffff;
+    font-weight: bold;
+}
+a:hover{
+    color: #000000;
+}
